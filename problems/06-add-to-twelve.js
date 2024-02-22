@@ -40,18 +40,18 @@ console.log(addToTwelve([1])); // false
 // recursive flavors.pop() !== favorite
 // step flavors.pop
 
-function iceCreamShop(flavors, favorite) {
+// function iceCreamShop(flavors, favorite) {
 
-  if (flavors.length == 0) {
-    return false
-  }
-  else if (flavors.pop() == favorite) {
-    return true
-  }
-  else {
-    return (iceCreamShop(flavors, favorite))
-  }
-}
+//   if (flavors.length == 0) {
+//     return false
+//   }
+//   else if (flavors.pop() == favorite) {
+//     return true
+//   }
+//   else {
+//     return (iceCreamShop(flavors, favorite))
+//   }
+// }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
